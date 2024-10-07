@@ -1,0 +1,19 @@
+# YOLO dataset configuration file
+
+# Paths to dataset directories
+# path: ../dataset  # Adjust if necessary based on where your dataset is relative to the .yaml file
+
+# train: train  # Directory for training images
+# val: test  # Directory for validation images (use 'test' as validation here)
+
+train: ../dataset/train  # Update this path
+val: ../dataset/val
+
+# Number of classes
+nc: 3  # Number of classes (benign, malignant, normal)
+
+# Class names
+names:
+  0: benign
+  1: malignant
+  2: normal

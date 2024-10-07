@@ -1,0 +1,13 @@
+# YOLO dataset configuration file
+
+train: ../dataset/train  # Update this path
+val: ../dataset/val
+
+# Number of classes
+nc: 3  # Number of classes (benign, malignant, normal)
+
+# Class names
+names:
+  0: benign
+  1: malignant
+  2: normal
